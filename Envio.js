@@ -35,8 +35,8 @@ $form.addEventListener('submit', (event) => {
 
 	let hola = price.replace(/ProductoPrecioCantSub Total/g,' ')
 	    let hola2 = hola.replace(/-/g,'  Cantidad: ')
-	     let hola3 = hola2.replace(/Remove/g,' ** ')
-	    let hola4 = hola3.replace('S/',' S/')
+	     let hola3 = hola2.replace(/Remove/g,'  --- ')
+	    let hola4 = hola3.replace(/S//g,' S/')
 	    
         let name = document.querySelector('#name').value
        let lastname = document.querySelector('#lastname').value
