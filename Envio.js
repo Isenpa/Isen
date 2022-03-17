@@ -29,7 +29,7 @@ $form.addEventListener('submit', (event) => {
  // let fecha = document.querySelector("#fecha").value;
  // let hora = document.querySelector("#hora").value;
  // let empleado = document.querySelector("#empleado").value;
-  let price = document.querySelector('#cart-details').innerText
+  let price = document.querySelector('#cart-details').attr('data-value')
 //  let servicio = document.querySelector("#servicio").value;
 //  let total = document.querySelector("#total").innerHTML;
 
