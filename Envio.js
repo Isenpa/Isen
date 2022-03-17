@@ -33,7 +33,7 @@ $form.addEventListener('submit', (event) => {
 //  let servicio = document.querySelector("#servicio").value;
 //  let total = document.querySelector("#total").innerHTML;
 
-	let hola = price.replace(/[ProductoPrecioCantSub Total]/gi,' ');
+	let hola = price.replace('ProductoPrecioCantSub Total',' ');
 	    
         let name = document.querySelector('#name').value
        let lastname = document.querySelector('#lastname').value
