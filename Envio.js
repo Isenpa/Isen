@@ -33,10 +33,10 @@ $form.addEventListener('submit', (event) => {
 //  let servicio = document.querySelector("#servicio").value;
 //  let total = document.querySelector("#total").innerHTML;
 
-	let hola = price.replace('ProductoPrecioCantSub Total',' ');
-	    let hola2 = hola.replace('-','  Cantidad: ');
-	     let hola3 = hola2.replace('Remove',' ** ');
-	    let hola4 = hola3.replace('S/',' S/');
+	let hola = price.replace('ProductoPrecioCantSub Total',' ')
+	    let hola2 = hola.replace('-','  Cantidad: ')
+	     let hola3 = hola2.replace('Remove',' ** ')
+	    let hola4 = hola3.replace('S/',' S/')
 	    
         let name = document.querySelector('#name').value
        let lastname = document.querySelector('#lastname').value
