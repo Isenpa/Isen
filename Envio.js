@@ -46,7 +46,7 @@ $form.addEventListener('submit', (event) => {
         let name = document.querySelector('#name').value
        let lastname = document.querySelector('#lastname').value
        let email = document.querySelector('#email').value
-        let message = 'send?phone=' + phone + '&text=*_Formulario_*%0A*Contacto*%0A%0A *Hola,*' + name + ' ' + lastname + '%0A*Tu Email para contacto es:*%0A' + email + '%0A*Tu Lista de Pedido*%0A' + hola4 + ''
+        let message = 'send?phone=' + phone + '&text=*_Formulario de Contacto_*%0A--------------------------%0A%0A *Hola,*' + name + ' ' + lastname + '%0A*Tu Email para contacto es:*%0A' + email + '%0A*Tu Lista de Pedido*%0A' + hola4 + ''
 
 
         if (isMobile()) {
@@ -58,6 +58,6 @@ $form.addEventListener('submit', (event) => {
         buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
         buttonSubmit.disabled = false
 
-    }, 4000);
+    }, 1000);
 
 });
