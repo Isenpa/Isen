@@ -29,7 +29,7 @@ $form.addEventListener('submit', (event) => {
  // let fecha = document.querySelector("#fecha").value;
  // let hora = document.querySelector("#hora").value;
  // let empleado = document.querySelector("#empleado").value;
-//  let items = document.querySelector("#price").innerText;
+  let price = document.querySelector("#price").innerText;
 //  let servicio = document.querySelector("#servicio").value;
 //  let total = document.querySelector("#total").innerHTML;
 
@@ -37,7 +37,7 @@ $form.addEventListener('submit', (event) => {
         let name = document.querySelector('#name').value
        let lastname = document.querySelector('#lastname').value
        let email = document.querySelector('#email').value
-        let message = 'send?phone=' + phone + '&text=*_Formulario Gabriel Chávez_*%0A*Contacto*%0A%0A*¿Cual es tu nombre?*%0A' + name + '%0A*¿Cuáles son tus apellidos?*%0A' + lastname + '%0A*¿Cuál es tu correo?*%0A' + email + ''
+        let message = 'send?phone=' + phone + '&text=*_Formulario Gabriel Chávez_*%0A*Contacto*%0A%0A*¿Cual es tu nombre?*%0A' + name + '%0A*¿Cuáles son tus apellidos?*%0A' + lastname + '%0A*¿Cuál es tu correo?*%0A' + email + '%0A*¿Cuál es tu price?*%0A' + price + ''
 
 
         if (isMobile()) {
