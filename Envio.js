@@ -15,7 +15,7 @@ const $form = document.querySelector('#form');
 const buttonSubmit = document.querySelector('#submit');
 const urlDesktop = 'https://web.whatsapp.com/';
 const urlMobile = 'whatsapp://';
-const phone = '51939054685';
+const phone = '51925478056';
 
 
 $form.addEventListener('submit', (event) => {
