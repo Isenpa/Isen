@@ -1641,4 +1641,4 @@ JSON || (JSON = {});
                 n.length = t.XMLDocument.documentElement.attributes.length
             }
         }
-})()
+})();
