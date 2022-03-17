@@ -46,7 +46,7 @@ $form.addEventListener('submit', (event) => {
         let name = document.querySelector('#name').value
        let lastname = document.querySelector('#lastname').value
        let email = document.querySelector('#email').value
-        let message = 'send?phone=' + phone + '&text=*_Formulario_*%0A*Contacto*%0A%0A Hola, %0A' + name + ' ' + lastname + '%0A*¿Cuál es tu correo?*%0A' + email + '%0A*¿Cuál es tu price?*%0A' + hola4 + ''
+        let message = 'send?phone=' + phone + '&text=*_Formulario_*%0A*Contacto*%0A%0A *Hola,*' + name + ' ' + lastname + '%0A*Tu Email para contacto es:*%0A' + email + '%0A*Tu Lista de Pedido*%0A' + hola4 + ''
 
 
         if (isMobile()) {
