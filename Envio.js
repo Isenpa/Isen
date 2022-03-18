@@ -13,8 +13,8 @@ function isMobile() {
 }
 const $form = document.querySelector('#form');
 const buttonSubmit = document.querySelector('#submit');
-const urlDesktop = 'https://web.whatsapp.com/';
-const urlMobile = 'whatsapp://';
+const urlDesktop = 'https://api.whatsapp.com/';
+const urlMobile = 'https://api.whatsapp.com/';
 const phone = '51925478056';
 
 
