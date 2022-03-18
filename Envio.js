@@ -13,10 +13,10 @@ function isMobile() {
 }
 const $form = document.querySelector('#form');
 const buttonSubmit = document.querySelector('#submit');
-const urlDesktop = 'https://api.whatsapp.com/';
-const urlMobile = 'https://api.whatsapp.com/';
-const phone = '51925478056';
-
+const urlDesktop = 'https://web.whatsapp.com/';
+const urlMobile = 'whatsapp://';
+const phone = '51939054685';
+//https://api.whatsapp.com/send?phone=34695685920&text=Hola,%20¿Qué%20tal%20%estás?
 
 $form.addEventListener('submit', (event) => {
     event.preventDefault()
