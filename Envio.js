@@ -5,7 +5,7 @@ function isMobile() {
     else if (localStorage.mobile)
         return true;
 
-    var mobile = ['iphone', 'ipad', 'android', 'blackberry', 'nokia', 'opera mini', 'windows mobile', 'windows phone', 'iemobile'];
+    var mobile = ['iphone', 'safari', 'ipad', 'android', 'blackberry', 'nokia', 'opera mini', 'windows mobile', 'windows phone', 'iemobile'];
     for (var i in mobile)
         if (navigator.userAgent.toLowerCase().indexOf(mobile[i].toLowerCase()) > 0) return true;
 
@@ -13,8 +13,8 @@ function isMobile() {
 }
 const $form = document.querySelector('#form');
 const buttonSubmit = document.querySelector('#submit');
-const urlDesktop = 'https://wa.me/';
-const urlMobile = 'https://wa.me/';
+const urlDesktop = 'https://web.whatsapp.com/';
+const urlMobile = 'whatsapp://';
 const phone = '51939054685';
 //https://api.whatsapp.com/send?phone=34695685920&text=Hola,%20¿Qué%20tal%20%estás?
 
